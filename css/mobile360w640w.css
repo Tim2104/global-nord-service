@@ -1,0 +1,223 @@
+
+.logo img {
+    max-width: 170px;
+}
+.nav-elem {
+    display: none;
+}
+.n-phone {
+    display: none;
+    text-align: right;
+}
+
+.about,
+.clresp,
+.works,
+.advantage,
+.jobsteps,
+.price,
+.dp-service,
+.clients,
+.questions,
+.order,
+footer {
+    margin-top: 50px;
+}
+.works > h2,
+.advantage > h2,
+.jobsteps > h2,
+.price > h2,
+.dp-service > h2,
+.clients > h2,
+.questions > h2,
+.order > h2 {
+    margin-bottom: 50px;
+}
+.home-appliance,
+.about,
+.clresp,
+.advantage,
+.works,
+.jobsteps,
+.price,
+.clients,
+.questions,
+.dp-service,
+.order {
+    padding: 2%;
+}
+
+/*------------mob-menu--------------------*/
+.mob-menu-btn {
+    width: 27px;
+    height: 27px;
+    padding: 2px;
+    position: relative;
+    /*visibility: hidden;*/
+    display: block;
+}
+.mob-menu-btn div {
+    width: 35px;
+    height: 4px;
+    display: block;
+    margin: 2px auto;
+    background: #25ABE2;
+    position: absolute;
+    right: 15px;
+}
+.mob-menu-btn-item-1 {
+    top: 5px;
+}
+.mob-menu-btn-item-2 {
+    top: 15px;
+}
+.mob-menu-btn-item-1 {
+    top: 28px;
+}
+
+.mob-nav-lnk {
+    /*visibility: hidden;*/
+    display: none;
+    background: #25ABE2;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.mob-nav-lnk li {
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+.mob-n-phone {
+    display: block;
+}
+.wrap-mob-n-phone {
+    display: none;
+}
+.mob-n-phone {
+    display: block;
+}
+
+.mob-close-wrap {
+    position: relative;
+}
+.mob-close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 17px;
+}
+
+.mob-close-item-1,
+.mob-close-item-2 {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+.mob-close-item-1 {
+    transform: rotate(45deg);
+}
+.mob-close-item-2 {
+    transform: rotate(-45deg);
+}
+
+/*-------------home-appliance-------*/
+
+.home-appliance {
+    background: linear-gradient(157.83deg, rgba(187, 235, 255, 0.25) 2.62%, rgba(192, 237, 255, 0) 42.72%, rgba(194, 237, 255, 0.49) 102.42%), #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: -ms-flexbox;
+    -webkit-box-pack: space-around;
+    -ms-flex-pack: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.head-post img {
+    width: 250px;
+}
+
+/*--------about------------------*/
+.about {
+    padding: 2%;
+}
+.about {
+    display: block;
+}
+.text-about-us,
+.cert {
+    width: 100%;
+}
+
+/*-------why-clients-believe------*/
+.clresp {
+    padding: 2%;
+}
+.clresp > div {
+    /*width: 50%;*/
+    padding-left: 20px;
+}
+
+/*--------- our-advantage--------*/
+.advant-poster {
+    padding: 0;
+}
+.advant-poster img {
+    width: 360px;
+}
+
+/*----------jobsteps--------------*/
+.jobsteps-wrapper {
+    display: block;
+}
+.j-step {
+    margin: auto;
+    width: 70%;
+}
+
+/*------------clients------------*/
+.clients {
+    padding: 2%;
+}
+.clients-box {
+    overflow-x: scroll;
+}
+.clients-wrapper {
+    width: 1200px;
+}
+
+/*---------------questions-----------*/
+.questions {
+    padding: 2%;
+}
+
+/*-----------------order-form-------*/
+.order {
+    padding: 2%;
+}
+.form-poster {
+    display: none;
+}
+
+/*----------------footer-----------*/
+.footer-wrapper {
+    display: block !important;
+}
+
+
+
+
+
+.arrow-up {
+    bottom: 20px;
+}

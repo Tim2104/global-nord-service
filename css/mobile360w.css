@@ -1,0 +1,313 @@
+body {
+    position: relative;
+}
+.about,
+.clresp,
+.works,
+.advantage,
+.jobsteps,
+.price,
+.dp-service,
+.clients,
+.questions,
+.order,
+footer {
+    margin-top: 50px;
+}
+.works > h2,
+.advantage > h2,
+.jobsteps > h2,
+.price > h2,
+.dp-service > h2,
+.clients > h2,
+.questions > h2,
+.order > h2 {
+    margin-bottom: 50px;
+}
+.home-appliance,
+.about,
+.clresp,
+.advantage,
+.works,
+.jobsteps,
+.price,
+.clients,
+.questions,
+.dp-service,
+.order {
+    padding: 2%;
+}
+
+
+
+.logo img {
+    max-width: 140px;
+}
+.nav-elem,
+.n-phone,
+.n-phone-2 {
+    display: none;
+}
+
+.btn-callmaster {
+    margin: 0 auto;
+    width: 90%;
+}
+/*------------mob-menu--------------------*/
+.mob-menu-btn {
+    width: 27px;
+    height: 27px;
+    padding: 2px;
+    position: relative;
+    /*visibility: hidden;*/
+    display: block;
+}
+.mob-menu-btn div {
+    width: 35px;
+    height: 4px;
+    display: block;
+    margin: 2px auto;
+    background: #25ABE2;
+    position: absolute;
+    right: 15px;
+}
+.mob-menu-btn-item-1 {
+    top: 5px;
+}
+.mob-menu-btn-item-2 {
+    top: 15px;
+}
+.mob-menu-btn-item-1 {
+    top: 28px;
+}
+
+.mob-nav-lnk {
+    /*visibility: hidden;*/
+    display: none;
+    background: #25ABE2;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.mob-nav-lnk li {
+    padding-left: 50px;
+    margin-bottom: 15px;
+}
+
+.mob-n-phone {
+    display: block;
+}
+
+.mob-close-wrap {
+    position: relative;
+}
+.mob-close {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 17px;
+}
+
+.mob-close-item-1,
+.mob-close-item-2 {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 9px;
+    right: 0px;
+}
+.mob-close-item-1 {
+    transform: rotate(45deg);
+}
+.mob-close-item-2 {
+    transform: rotate(-45deg);
+}
+
+#wrap-mob-n-phone {
+    position: relative;
+}
+#mob-n-phone-box-a {
+    width: 280px;
+            height: 80px;
+            background-color: #25abe2;
+            color: #fff;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            position: absolute;
+            top: 70px;
+            left: 30px;
+            padding: 10px;
+}
+#mob-n-phone-arrow {
+    width: 20px;
+            height: 20px;
+            background-color: #25abe2;
+            position: absolute;
+            top: -10px;
+            left: 190px;
+            transform: rotate(45deg);
+}
+#close-box {
+    width: 25px;
+            height: 25px;
+            position: absolute;
+            top: -4px;
+            left: 245px;
+
+}
+#close-box-wrap {
+    width: 25px;
+            height: 25px;
+            position: relative;
+}
+#close-box-item-1 {
+    width: 25px;
+            height: 4px;
+            background-color: #fff;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 15px;
+            left: 0px;
+}
+#close-box-item-2 {
+    width: 25px;
+            height: 4px;
+            background-color: #fff;
+            transform: rotate(-45deg);
+            position: absolute;
+            top: 15px;
+            left: 0px;
+}
+#mob-n-phone-text {
+    marginTop: 20px;
+            font-size: 1.8rem;
+            position: relative;
+            margin-top: 20px;
+}
+
+
+/*-------------home-appliance-------*/
+.home-appliance {
+    display: block;
+}
+/*.head-content {
+    width: 100%;
+}*/
+.head-content > h1 {
+    margin-bottom: 40px;
+}
+.head-post {
+    display: none;
+}
+
+/*--------about------------------*/
+
+.about {
+    display: block;
+}
+.text-about-us > h2 {
+    margin-bottom: 60px;
+}
+.text-about-us,
+.cert {
+    width: 100%;
+}
+
+/*-------why-clients-believe------*/
+
+.clresp-param div {
+    text-align: center;
+}
+
+/*--------- our-advantage--------*/
+
+.advant-content-case {
+    text-align: center;
+    margin: 20px auto;
+}
+.advant-poster img {
+    width: 360px;
+}
+.adv-icon {
+    margin: 0 auto;
+}
+
+/*----------jobsteps--------------*/
+
+.j-step h2 {
+    margin: auto;
+}
+.j-step {
+    margin: 25px auto;
+}
+
+/*-------------price-----------*/
+/*.price > h2 {
+    padding: 2%;
+}*/
+.price table tbody tr td:first-child {
+    padding-left: 1%;
+}
+.price table tbody tr td:last-child {
+    padding-left: 1%;
+}
+
+/*------------dp-service-------*/
+
+.dp-service-box {
+    overflow-x: scroll;
+}
+.dp-service-wrapper {
+    width: 700px;
+}
+.std-serv {
+    border: none;
+}
+.garant-serv {
+    border: none;
+}
+
+/*------------clients------------*/
+
+.clients-box {
+    overflow-x: scroll;
+}
+.clients-wrapper {
+    width: 900px;
+}
+
+
+/*-----------------order-form-------*/
+
+.form-poster {
+    display: none;
+}
+
+/*----------------footer-----------*/
+
+.footer-wrapper {
+    display: block !important;
+}
+.contacts {
+    padding: 80px 10px;
+}
+.phone {
+    font-size: 36px;
+}
+.phone,
+.email-add,
+.addr-wrap {
+    padding: 30px 0;
+}
+.addr-wrap {
+    display: block !important;
+}
+.addr-wrap div {
+    padding: 10px 10px;
+}
+
